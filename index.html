@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.P.S.L.S</title>
+</head>
+<body>
+    <div class="game-info">
+    <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+    <p class="game-overview">The game is an expansion on the game Rock, Paper, Scissors.
+       Each player picks a variable and reveals it at the same time.
+       The winner is the one who defeats the others.
+       In a tie, the process is repeated until a winner is found.
+       The game was originally created by Sam Kass with Karen Bryla.
+        May the odds be in your favor.
+    </p>
+
+    <hr>
+
+    <h2 class="rules-header">Rules</h2>
+    <ul class="rules">
+        <Li> Scissors cuts Paper </Li>
+        <Li>Paper covers Rock</Li>
+        <Li> Rock crushes Lizard</Li>
+        <Li>   Lizard poisons Spock</Li>
+        <Li>Spock smashes Scissors</Li>
+        <Li>Scissors decapitates Lizard</Li>
+        <Li>  Lizard eats Paper</Li>
+        <Li>Paper disproves Spock</Li>
+        <Li>Spock vaporizes Rock</Li>
+        <Li>And as it always has Rock crushes Scissors</Li>
+    </ul>
+
+    <hr>
+    </div>
+      
+    
+    <div class="container">
+           <div>
+            
+                <h2 class="output">CPU Selection: <span id="computer-choice"></span></h2>
+                <h2 class="output">User Selection: <span id="user-choice"></span></h2>
+                
+                <button id="Rock"> Rock</button>
+                <button id="Paper"> Paper</button>
+                <button id="Scissors"> Scissors</button>
+                <button id="Lizard"> Lizard</button>
+                <button id="Spock"> Spock</button>
+                
+                <h2 class="output">Result: <span id="result"></span></h2>
+                <button class="clear" onClick="window.location.reload();">Clear</button>
+                
+            </div>
+    </div>
+   
+
+    
+
+    <script src="rpsls.js" charset="UTF-8"> </script>
+</body>
+</html>
