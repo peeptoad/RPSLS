@@ -23,13 +23,13 @@ ul
    display: flex;
    flex-direction: column;
    max-width: 600px;
-   color: rgb(255, 255, 255);
+   color: rgb(211, 211, 211);
    text-align: center;
    background-color: rgb(0, 0, 0);
    margin: auto;
    border-radius: 7px;
    padding: 25px;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.796);
+   box-shadow: 0 0 30px rgb(228, 228, 228);
 }
 
 @media screen and (max-width: 750px) {
@@ -41,26 +41,27 @@ ul
  
 hr
 {
-    width: 75%;
-    border:5px solid rgb(87, 87, 87);
+    width: 95%;
+    border:2px solid rgb(87, 87, 87);
     background-color: rgb(87, 87, 87);
-    border-radius: 25%;
+    border-radius: 5px;
 }
  
 .container
 {
+    
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 25px;
-    justify-content: space-around;
+    
     max-width: 600px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border-radius: 7px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.796);
+    box-shadow: 0 0 30px rgb(228, 228, 228);
 }
 
 @media screen and (max-width: 750px) {
@@ -77,13 +78,18 @@ button
     display: inline;
     background-color: rgb(255, 255, 255);
     margin: 1px;
+    margin-inline-start: 10px;
     border-radius: 5px;
+    box-shadow: 0 0 1px rgb(95, 95, 95);
+    transition: 1s;
 }
 
 @media screen and (max-width: 750px) {
     button{
         width: fit-content;
         font-size: 10px;
+        margin-inline-start: 10px;
+        border-radius: 3px;
         
      }
    }
@@ -95,12 +101,22 @@ button:hover
 
 .output
 {
-    
+    margin-left: 10px;
     max-width: 400px;
     margin-top: 20px;
+    color: rgb(204, 204, 204);
+    
 }
+
+@media screen and (max-width: 750px) {
+    .output{
+        
+        font-size: 14px;
+        padding: 10px;
+     }
+   }
 
 #computer-choice, #user-choice, #result
 {
-    color: blue;
+    color: rgb(57, 57, 255);
 }
